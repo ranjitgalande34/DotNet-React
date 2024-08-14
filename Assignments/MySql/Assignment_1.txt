@@ -1,0 +1,216 @@
+﻿create database testdb;
+use testdb;
+
+CREATE TABLE employees (
+    emp_no      INT             NOT NULL,
+    birth_date  DATE            NOT NULL,
+    first_name  VARCHAR(14)     NOT NULL,
+    last_name   VARCHAR(16)     NOT NULL,
+    gender      ENUM('M', 'F')  NOT NULL,    
+    hire_date   DATE            NOT NULL,
+    PRIMARY KEY (emp_no)
+);
+
+INSERT INTO employees (emp_no, birth_date, first_name, last_name, gender, hire_date)
+VALUES
+(1, '1980-01-15', 'John', 'Doe', 'M', '2005-06-23'),
+(2, '1985-03-25', 'Jane', 'Smith', 'F', '2008-09-12'),
+(3, '1990-07-30', 'Emily', 'Jones', 'F', '2012-04-01'),
+(4, '1982-11-22', 'Michael', 'Brown', 'M', '2010-11-11'),
+(5, '1995-02-15', 'David', 'Wilson', 'M', '2015-01-10'),
+(6, '1988-09-05', 'Sarah', 'Taylor', 'F', '2009-03-23');
+
+insert into employees(emp_no, birth_date, first_name, last_name, gender, hire_date)
+values
+(7, '1988-09-05', 'Farah', 'Akstar', 'F', '2009-03-23');
+
+
+CREATE TABLE departments (
+    dept_no     CHAR(4)         NOT NULL,
+    dept_name   VARCHAR(40)     NOT NULL,
+    PRIMARY KEY (dept_no),
+    UNIQUE  KEY (dept_name)
+);
+
+INSERT INTO departments (dept_no, dept_name)
+VALUES
+('D01', 'HR'),
+('D02', 'Sales'),
+('D03', 'Accts'),
+('D04', 'IT');
+
+
+CREATE TABLE dept_manager (
+   emp_no       INT             NOT NULL,
+   dept_no      CHAR(4)         NOT NULL,
+   from_date    DATE            NOT NULL,
+   to_date      DATE            NOT NULL,
+   FOREIGN KEY (emp_no)  REFERENCES employees (emp_no)    ON DELETE CASCADE,
+   FOREIGN KEY (dept_no) REFERENCES departments (dept_no) ON DELETE CASCADE,
+   PRIMARY KEY (emp_no,dept_no)
+); 
+
+INSERT INTO dept_manager (emp_no, dept_no, from_date, to_date)
+VALUES
+(1, 'D01', '2020-01-01', '2023-01-01'),
+(2, 'D02', '2018-06-01', '2022-06-01'),
+(3, 'D03', '2019-03-01', '2023-03-01');
+
+
+CREATE TABLE dept_emp (
+    emp_no      INT             NOT NULL,
+    dept_no     CHAR(4)         NOT NULL,
+    from_date   DATE            NOT NULL,
+    to_date     DATE            NOT NULL,
+    FOREIGN KEY (emp_no)  REFERENCES employees   (emp_no)  ON DELETE CASCADE,
+    FOREIGN KEY (dept_no) REFERENCES departments (dept_no) ON DELETE CASCADE,
+    PRIMARY KEY (emp_no,dept_no)
+);
+
+INSERT INTO dept_emp (emp_no, dept_no, from_date, to_date)
+VALUES
+(1, 'D01', '2005-06-23', '2023-01-01'),
+(2, 'D02', '2008-09-12', '2022-06-01'),
+(3, 'D03', '2012-04-01', '2023-03-01'),
+(4, 'D04', '2010-11-11', '2022-11-11'),
+(5, 'D01', '2015-01-10', '2023-01-01'),
+(6, 'D02', '2009-03-23', '2022-06-01');
+
+insert into dept_emp(emp_no, dept_no, from_date, to_date)
+values
+(1, 'D03', '2009-03-23', '2022-06-01');
+
+
+
+CREATE TABLE titles (
+    emp_no      INT             NOT NULL,
+    title       VARCHAR(50)     NOT NULL,
+    from_date   DATE            NOT NULL,
+    to_date     DATE,
+    FOREIGN KEY (emp_no) REFERENCES employees (emp_no) ON DELETE CASCADE,
+    PRIMARY KEY (emp_no,title, from_date)
+) 
+; 
+INSERT INTO titles (emp_no, title, from_date, to_date)
+VALUES
+(1, 'Manager', '2015-01-01', '2023-01-01'),
+(2, 'Sales Representative', '2018-06-01', '2022-06-01'),
+(3, 'Accountant', '2019-03-01', '2023-03-01'),
+(4, 'IT Specialist', '2010-11-11', '2022-11-11'),
+(5, 'HR Specialist', '2015-01-10', '2023-01-01'),
+(6, 'Sales Representative', '2009-03-23', '2022-06-01');
+
+
+
+
+
+
+CREATE TABLE salaries (
+    emp_no      INT             NOT NULL,
+    salary      INT             NOT NULL,
+    from_date   DATE            NOT NULL,
+    to_date     DATE            NOT NULL,
+    FOREIGN KEY (emp_no) REFERENCES employees (emp_no) ON DELETE CASCADE,
+    PRIMARY KEY (emp_no, from_date)
+) 
+; 
+
+INSERT INTO salaries (emp_no, salary, from_date, to_date)
+VALUES
+(1, 60000, '2020-01-01', '2023-01-01'),
+(2, 45000, '2018-06-01', '2022-06-01'),
+(3, 50000, '2019-03-01', '2023-03-01'),
+(4, 55000, '2010-11-11', '2022-11-11'),
+(5, 48000, '2015-01-10', '2023-01-01'),
+(6, 47000, '2009-03-23', '2022-06-01');
+
+
+
+SELECT gender, COUNT(*) AS count
+FROM employees
+GROUP BY gender
+ORDER BY count DESC;
+
+
+
+SELECT 
+    salary, 
+    (SELECT AVG(salary) FROM salaries) AS avg_salary
+FROM 
+    salaries
+ORDER BY 
+    salary DESC;
+    
+    
+  SELECT e.first_name, e.last_name, COUNT(de.dept_no) AS num_departments
+FROM employees e
+JOIN dept_emp de ON e.emp_no = de.emp_no
+GROUP BY e.emp_no
+HAVING COUNT(de.dept_no) >= 2
+ORDER BY e.first_name ASC;
+
+
+Select e.first_name,e.last_name, MAX(s.salary) as salary
+From employees e
+JOIN salaries s ON e.emp_no=s.emp_no
+Group BY e.emp_no, e.first_name, e.last_name;
+
+
+
+
+WITH MaxSalary AS (
+    SELECT MAX(salary) AS max_salary
+    FROM salaries
+)
+
+SELECT e.first_name, e.last_name, s.salary
+FROM employees e
+JOIN salaries s ON e.emp_no = s.emp_no
+JOIN MaxSalary ms ON s.salary = ms.max_salary
+LIMIT 1;
+
+
+WITH SecondHighestSalary AS (
+    SELECT MAX(salary) AS second_max_salary
+    FROM salaries
+    WHERE salary < (SELECT MAX(salary) FROM salaries)
+)
+
+SELECT e.first_name, e.last_name, s.salary
+FROM employees e
+JOIN salaries s ON e.emp_no = s.emp_no
+JOIN SecondHighestSalary shs ON s.salary = shs.second_max_salary;
+
+
+
+
+select * from employees;
+
+select DATE_FORMAT(hire_date, '%Y-%m') AS month_year,
+ Count(*) as date
+from employees 
+Group by hire_date
+having date>=2 ;
+
+
+
+SELECT 
+    d.dept_name AS department,
+    MIN(TIMESTAMPDIFF(YEAR, e.birth_date, e.hire_date)) AS youngest_age_at_hire
+FROM 
+    employees e
+JOIN 
+    dept_emp de ON e.emp_no = de.emp_no
+JOIN 
+    departments d ON de.dept_no = d.dept_no
+GROUP BY 
+    d.dept_name;
+
+
+SELECT e.first_name, d.dept_name
+FROM employees e
+JOIN dept_emp de ON e.emp_no = de.emp_no
+JOIN departments d ON de.dept_no = d.dept_no
+WHERE e.first_name NOT REGEXP '[AEIOUaeiou]';
+
+
