@@ -1,0 +1,15 @@
+/Users/ranjit/projects/program/program/bin/Debug/net7.0/Ass2
+/Users/ranjit/projects/program/program/bin/Debug/net7.0/Ass2.deps.json
+/Users/ranjit/projects/program/program/bin/Debug/net7.0/Ass2.runtimeconfig.json
+/Users/ranjit/projects/program/program/bin/Debug/net7.0/Ass2.dll
+/Users/ranjit/projects/program/program/bin/Debug/net7.0/Ass2.pdb
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/Ass2.csproj.AssemblyReference.cache
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/Ass2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/Ass2.AssemblyInfoInputs.cache
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/Ass2.AssemblyInfo.cs
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/Ass2.csproj.CoreCompileInputs.cache
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/Ass2.dll
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/refint/Ass2.dll
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/Ass2.pdb
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/Ass2.genruntimeconfig.cache
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/ref/Ass2.dll

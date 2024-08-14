@@ -1,0 +1,67 @@
+﻿CREATE DATABASE pract100;
+
+USE pract100;
+
+CREATE TABLE employee (
+    employee_id INT PRIMARY KEY AUTO_INCREMENT,
+    name CHAR(50) NOT NULL,
+    exp INT CHECK (exp >= 2),
+    salary INT CHECK (salary BETWEEN 12000 AND 30000),
+    department_name CHAR(25) CHECK (department_name IN ('HR', 'Sales', 'Accts', 'IT')),
+    manager_name CHAR(50)
+);
+
+INSERT INTO employee (name, exp, salary, department_name, manager_name) VALUES
+('Aman', 5, 25000, 'HR', 'John Doe'),
+('Nina', 3, 28000, 'Sales', 'Jane Smith'),
+('Raj', 7, 15000, 'Accts', 'John Doe'),
+('Sara', 4, 18000, 'IT', 'Jane Smith'),
+('Mike', 2, 22000, 'HR', 'John Doe');
+
+SELECT employee_id, name, salary FROM employee;
+
+SELECT employee_id AS Employee_ID, name AS Name_of_Employee, salary AS Salary_of_Employee FROM employee;
+
+SELECT name, salary, salary + 2000 AS Incremented_Salary FROM employee;
+
+SELECT department_name, SUM(salary) AS Total_Salary FROM employee GROUP BY department_name;
+
+SELECT department_name, SUM(salary) AS Total_Salary, MAX(salary) AS Max_Salary, AVG(salary) AS Avg_Salary FROM employee GROUP BY department_name;
+
+SELECT * FROM employee ORDER BY salary;
+
+SELECT ROW_NUMBER() OVER (ORDER BY employee_id) AS Unique_Sequence, * FROM employee;
+
+SELECT employee_id, name, salary, RANK() OVER (ORDER BY salary DESC) AS Salary_Rank FROM employee;
+
+ALTER TABLE employee ADD age INT DEFAULT 26 CHECK (age BETWEEN 26 AND 60);
+
+UPDATE employee SET age = 26;
+
+SELECT COUNT(DISTINCT department_name) AS Number_of_Departments FROM employee;
+
+SELECT UPPER(name) FROM employee;
+
+SELECT LEFT(name, 4) FROM employee;
+
+SELECT name, POSITION('a' IN name) AS Position_of_a FROM employee;
+
+SELECT department_name, COUNT(*) AS Number_of_Employees FROM employee GROUP BY department_name;
+
+SELECT manager_name, COUNT(*) AS Number_of_Employees FROM employee GROUP BY manager_name;
+
+SELECT * FROM employee WHERE employee_id IN (101, 102, 110);
+
+SELECT * FROM employee WHERE employee_id BETWEEN 101 AND 110;
+
+SELECT * FROM employee WHERE department_name = 'HR';
+
+SELECT * FROM employee WHERE department_name IN ('HR', 'Accts');
+
+SELECT * FROM employee WHERE name LIKE 'A%';
+
+SELECT * FROM employee WHERE name LIKE '%a%';
+
+SELECT department_name, AVG(salary) AS Avg_Salary FROM employee GROUP BY department_name HAVING AVG(salary) < 12000;
+
+SELECT * FROM employee WHERE department_name != 'Accts' AND salary NOT BETWEEN 10000 AND 20000;

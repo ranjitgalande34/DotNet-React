@@ -1,0 +1,15 @@
+/Users/ranjit/projects/program/FileDirectoryOperations/bin/Debug/net7.0/FileDirectoryOperations
+/Users/ranjit/projects/program/FileDirectoryOperations/bin/Debug/net7.0/FileDirectoryOperations.deps.json
+/Users/ranjit/projects/program/FileDirectoryOperations/bin/Debug/net7.0/FileDirectoryOperations.runtimeconfig.json
+/Users/ranjit/projects/program/FileDirectoryOperations/bin/Debug/net7.0/FileDirectoryOperations.dll
+/Users/ranjit/projects/program/FileDirectoryOperations/bin/Debug/net7.0/FileDirectoryOperations.pdb
+/Users/ranjit/projects/program/FileDirectoryOperations/obj/Debug/net7.0/FileDirectoryOperations.csproj.AssemblyReference.cache
+/Users/ranjit/projects/program/FileDirectoryOperations/obj/Debug/net7.0/FileDirectoryOperations.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranjit/projects/program/FileDirectoryOperations/obj/Debug/net7.0/FileDirectoryOperations.AssemblyInfoInputs.cache
+/Users/ranjit/projects/program/FileDirectoryOperations/obj/Debug/net7.0/FileDirectoryOperations.AssemblyInfo.cs
+/Users/ranjit/projects/program/FileDirectoryOperations/obj/Debug/net7.0/FileDirectoryOperations.csproj.CoreCompileInputs.cache
+/Users/ranjit/projects/program/FileDirectoryOperations/obj/Debug/net7.0/FileDirectoryOperations.dll
+/Users/ranjit/projects/program/FileDirectoryOperations/obj/Debug/net7.0/refint/FileDirectoryOperations.dll
+/Users/ranjit/projects/program/FileDirectoryOperations/obj/Debug/net7.0/FileDirectoryOperations.pdb
+/Users/ranjit/projects/program/FileDirectoryOperations/obj/Debug/net7.0/FileDirectoryOperations.genruntimeconfig.cache
+/Users/ranjit/projects/program/FileDirectoryOperations/obj/Debug/net7.0/ref/FileDirectoryOperations.dll

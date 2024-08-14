@@ -1,0 +1,15 @@
+/Users/ranjit/projects/program/program/bin/Debug/net7.0/program
+/Users/ranjit/projects/program/program/bin/Debug/net7.0/program.deps.json
+/Users/ranjit/projects/program/program/bin/Debug/net7.0/program.runtimeconfig.json
+/Users/ranjit/projects/program/program/bin/Debug/net7.0/program.dll
+/Users/ranjit/projects/program/program/bin/Debug/net7.0/program.pdb
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/program.csproj.AssemblyReference.cache
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/program.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/program.AssemblyInfoInputs.cache
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/program.AssemblyInfo.cs
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/program.csproj.CoreCompileInputs.cache
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/program.dll
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/refint/program.dll
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/program.pdb
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/program.genruntimeconfig.cache
+/Users/ranjit/projects/program/program/obj/Debug/net7.0/ref/program.dll

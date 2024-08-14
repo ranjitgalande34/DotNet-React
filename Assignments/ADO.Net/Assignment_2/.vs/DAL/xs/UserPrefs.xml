@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{C8CFBC49-AEEF-4D0F-B4B6-92F833B949F2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PL/Program.cs">
+    <Files>
+      <File FileName="BLL/EmployeeBLL.cs" Line="26" Column="10" />
+      <File FileName="PL/Program.cs" Line="42" Column="42" />
+      <File FileName="DTO/Employee.cs" Line="15" Column="1" />
+      <File FileName="DAL/EmployeeDAL.cs" Line="4" Column="11" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DAL" expanded="True">
+            <Node name="BLL" expanded="True" />
+            <Node name="DAL" expanded="True" />
+            <Node name="DTO" expanded="True" />
+            <Node name="PL" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.PL PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

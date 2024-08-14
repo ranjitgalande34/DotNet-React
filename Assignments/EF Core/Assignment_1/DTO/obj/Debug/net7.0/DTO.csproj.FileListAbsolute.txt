@@ -1,0 +1,11 @@
+/Users/ranjit/projects/Assignment-DatabaseConnectivity/DTO/bin/Debug/net7.0/DTO.deps.json
+/Users/ranjit/projects/Assignment-DatabaseConnectivity/DTO/bin/Debug/net7.0/DTO.dll
+/Users/ranjit/projects/Assignment-DatabaseConnectivity/DTO/bin/Debug/net7.0/DTO.pdb
+/Users/ranjit/projects/Assignment-DatabaseConnectivity/DTO/obj/Debug/net7.0/DTO.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranjit/projects/Assignment-DatabaseConnectivity/DTO/obj/Debug/net7.0/DTO.AssemblyInfoInputs.cache
+/Users/ranjit/projects/Assignment-DatabaseConnectivity/DTO/obj/Debug/net7.0/DTO.AssemblyInfo.cs
+/Users/ranjit/projects/Assignment-DatabaseConnectivity/DTO/obj/Debug/net7.0/DTO.csproj.CoreCompileInputs.cache
+/Users/ranjit/projects/Assignment-DatabaseConnectivity/DTO/obj/Debug/net7.0/DTO.dll
+/Users/ranjit/projects/Assignment-DatabaseConnectivity/DTO/obj/Debug/net7.0/refint/DTO.dll
+/Users/ranjit/projects/Assignment-DatabaseConnectivity/DTO/obj/Debug/net7.0/DTO.pdb
+/Users/ranjit/projects/Assignment-DatabaseConnectivity/DTO/obj/Debug/net7.0/ref/DTO.dll

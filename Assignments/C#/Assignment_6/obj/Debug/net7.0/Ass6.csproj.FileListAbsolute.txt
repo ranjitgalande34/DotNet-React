@@ -1,0 +1,15 @@
+/Users/ranjit/projects/program/Ass6/bin/Debug/net7.0/Ass6
+/Users/ranjit/projects/program/Ass6/bin/Debug/net7.0/Ass6.deps.json
+/Users/ranjit/projects/program/Ass6/bin/Debug/net7.0/Ass6.runtimeconfig.json
+/Users/ranjit/projects/program/Ass6/bin/Debug/net7.0/Ass6.dll
+/Users/ranjit/projects/program/Ass6/bin/Debug/net7.0/Ass6.pdb
+/Users/ranjit/projects/program/Ass6/obj/Debug/net7.0/Ass6.csproj.AssemblyReference.cache
+/Users/ranjit/projects/program/Ass6/obj/Debug/net7.0/Ass6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranjit/projects/program/Ass6/obj/Debug/net7.0/Ass6.AssemblyInfoInputs.cache
+/Users/ranjit/projects/program/Ass6/obj/Debug/net7.0/Ass6.AssemblyInfo.cs
+/Users/ranjit/projects/program/Ass6/obj/Debug/net7.0/Ass6.csproj.CoreCompileInputs.cache
+/Users/ranjit/projects/program/Ass6/obj/Debug/net7.0/Ass6.dll
+/Users/ranjit/projects/program/Ass6/obj/Debug/net7.0/refint/Ass6.dll
+/Users/ranjit/projects/program/Ass6/obj/Debug/net7.0/Ass6.pdb
+/Users/ranjit/projects/program/Ass6/obj/Debug/net7.0/Ass6.genruntimeconfig.cache
+/Users/ranjit/projects/program/Ass6/obj/Debug/net7.0/ref/Ass6.dll

@@ -1,0 +1,269 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ranjit/projects/DAL/PL/PL.csproj": {}
+  },
+  "projects": {
+    "/Users/ranjit/projects/DAL/BLL/BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ranjit/projects/DAL/BLL/BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "/Users/ranjit/projects/DAL/BLL/BLL.csproj",
+        "packagesPath": "/Users/ranjit/.nuget/packages/",
+        "outputPath": "/Users/ranjit/projects/DAL/BLL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ranjit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ranjit/projects/DAL/DAL/DAL.csproj": {
+                "projectPath": "/Users/ranjit/projects/DAL/DAL/DAL.csproj"
+              },
+              "/Users/ranjit/projects/DAL/DTO/DTO.csproj": {
+                "projectPath": "/Users/ranjit/projects/DAL/DTO/DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ranjit/projects/DAL/DAL/DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ranjit/projects/DAL/DAL/DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "/Users/ranjit/projects/DAL/DAL/DAL.csproj",
+        "packagesPath": "/Users/ranjit/.nuget/packages/",
+        "outputPath": "/Users/ranjit/projects/DAL/DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ranjit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ranjit/projects/DAL/DTO/DTO.csproj": {
+                "projectPath": "/Users/ranjit/projects/DAL/DTO/DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ranjit/projects/DAL/DTO/DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ranjit/projects/DAL/DTO/DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "/Users/ranjit/projects/DAL/DTO/DTO.csproj",
+        "packagesPath": "/Users/ranjit/.nuget/packages/",
+        "outputPath": "/Users/ranjit/projects/DAL/DTO/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ranjit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ranjit/projects/DAL/PL/PL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ranjit/projects/DAL/PL/PL.csproj",
+        "projectName": "PL",
+        "projectPath": "/Users/ranjit/projects/DAL/PL/PL.csproj",
+        "packagesPath": "/Users/ranjit/.nuget/packages/",
+        "outputPath": "/Users/ranjit/projects/DAL/PL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ranjit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ranjit/projects/DAL/BLL/BLL.csproj": {
+                "projectPath": "/Users/ranjit/projects/DAL/BLL/BLL.csproj"
+              },
+              "/Users/ranjit/projects/DAL/DAL/DAL.csproj": {
+                "projectPath": "/Users/ranjit/projects/DAL/DAL/DAL.csproj"
+              },
+              "/Users/ranjit/projects/DAL/DTO/DTO.csproj": {
+                "projectPath": "/Users/ranjit/projects/DAL/DTO/DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

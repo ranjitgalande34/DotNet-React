@@ -1,0 +1,5 @@
+/Users/ranjit/projects/program/first/obj/Release/net7.0/first.csproj.AssemblyReference.cache
+/Users/ranjit/projects/program/first/obj/Release/net7.0/first.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranjit/projects/program/first/obj/Release/net7.0/first.AssemblyInfoInputs.cache
+/Users/ranjit/projects/program/first/obj/Release/net7.0/first.AssemblyInfo.cs
+/Users/ranjit/projects/program/first/obj/Release/net7.0/first.csproj.CoreCompileInputs.cache

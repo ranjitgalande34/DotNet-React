@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{BFE9F57B-F6D7-47F6-A847-EC39FBEE13F9}|Default">
+  <MonoDevelop.Ide.ItemProperties.PL PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PL/Program.cs">
+    <Files>
+      <File FileName="PL/Program.cs" Line="72" Column="59" />
+      <File FileName="DAL/AppDbContext.cs" Line="17" Column="1" />
+      <File FileName="DAL/BatchRepository.cs" Line="9" Column="48" />
+      <File FileName="BLL/Class1.cs" Line="32" Column="10" />
+      <File FileName="DTO/Class1.cs" Line="9" Column="20" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assignment-DatabaseConnectivity" expanded="True">
+            <Node name="BLL" expanded="True" />
+            <Node name="DAL.EF" expanded="True" />
+            <Node name="DTO" expanded="True" />
+            <Node name="PL" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

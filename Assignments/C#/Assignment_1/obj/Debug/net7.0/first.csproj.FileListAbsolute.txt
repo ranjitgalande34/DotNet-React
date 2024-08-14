@@ -1,0 +1,15 @@
+/Users/ranjit/projects/program/first/bin/Debug/net7.0/first
+/Users/ranjit/projects/program/first/bin/Debug/net7.0/first.deps.json
+/Users/ranjit/projects/program/first/bin/Debug/net7.0/first.runtimeconfig.json
+/Users/ranjit/projects/program/first/bin/Debug/net7.0/first.dll
+/Users/ranjit/projects/program/first/bin/Debug/net7.0/first.pdb
+/Users/ranjit/projects/program/first/obj/Debug/net7.0/first.csproj.AssemblyReference.cache
+/Users/ranjit/projects/program/first/obj/Debug/net7.0/first.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranjit/projects/program/first/obj/Debug/net7.0/first.AssemblyInfoInputs.cache
+/Users/ranjit/projects/program/first/obj/Debug/net7.0/first.AssemblyInfo.cs
+/Users/ranjit/projects/program/first/obj/Debug/net7.0/first.csproj.CoreCompileInputs.cache
+/Users/ranjit/projects/program/first/obj/Debug/net7.0/first.dll
+/Users/ranjit/projects/program/first/obj/Debug/net7.0/refint/first.dll
+/Users/ranjit/projects/program/first/obj/Debug/net7.0/first.pdb
+/Users/ranjit/projects/program/first/obj/Debug/net7.0/first.genruntimeconfig.cache
+/Users/ranjit/projects/program/first/obj/Debug/net7.0/ref/first.dll

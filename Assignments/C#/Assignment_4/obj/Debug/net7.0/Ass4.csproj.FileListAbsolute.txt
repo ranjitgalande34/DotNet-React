@@ -1,0 +1,15 @@
+/Users/ranjit/projects/program/Ass4/bin/Debug/net7.0/Ass4
+/Users/ranjit/projects/program/Ass4/bin/Debug/net7.0/Ass4.deps.json
+/Users/ranjit/projects/program/Ass4/bin/Debug/net7.0/Ass4.runtimeconfig.json
+/Users/ranjit/projects/program/Ass4/bin/Debug/net7.0/Ass4.dll
+/Users/ranjit/projects/program/Ass4/bin/Debug/net7.0/Ass4.pdb
+/Users/ranjit/projects/program/Ass4/obj/Debug/net7.0/Ass4.csproj.AssemblyReference.cache
+/Users/ranjit/projects/program/Ass4/obj/Debug/net7.0/Ass4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranjit/projects/program/Ass4/obj/Debug/net7.0/Ass4.AssemblyInfoInputs.cache
+/Users/ranjit/projects/program/Ass4/obj/Debug/net7.0/Ass4.AssemblyInfo.cs
+/Users/ranjit/projects/program/Ass4/obj/Debug/net7.0/Ass4.csproj.CoreCompileInputs.cache
+/Users/ranjit/projects/program/Ass4/obj/Debug/net7.0/Ass4.dll
+/Users/ranjit/projects/program/Ass4/obj/Debug/net7.0/refint/Ass4.dll
+/Users/ranjit/projects/program/Ass4/obj/Debug/net7.0/Ass4.pdb
+/Users/ranjit/projects/program/Ass4/obj/Debug/net7.0/Ass4.genruntimeconfig.cache
+/Users/ranjit/projects/program/Ass4/obj/Debug/net7.0/ref/Ass4.dll

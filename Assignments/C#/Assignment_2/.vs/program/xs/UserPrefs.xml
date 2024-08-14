@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{B1E56FB8-9C58-48FB-AA8B-CAA36D369729}|Default">
+  <MonoDevelop.Ide.ItemProperties.Ass1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ADO.Net__Ass1 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Ass5 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Clo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Ass6 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.methods PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../ADO.Net_Ass1/Program.cs">
+    <Files>
+      <File FileName="../EntityDemo/Program.cs" />
+      <File FileName="../EntityDemo/EntityDemo.csproj" />
+      <File FileName="../EntityDemo/Models/Student.cs" />
+      <File FileName="../EntityDemo/Data/StudentContext.cs" Line="19" Column="59" />
+      <File FileName="../ADO.Net_Ass1/Program.cs" Line="107" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="program" expanded="True">
+            <Node name="ADO.Net_Ass1" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Ass2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Advance PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.EntityDemo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebDev PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.DataBase PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.SearchSort PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.NumaricFunction PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Ass3 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

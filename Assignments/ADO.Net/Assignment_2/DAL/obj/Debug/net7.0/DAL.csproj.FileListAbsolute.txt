@@ -1,0 +1,15 @@
+/Users/ranjit/projects/DAL/DAL/obj/Debug/net7.0/DAL.csproj.AssemblyReference.cache
+/Users/ranjit/projects/DAL/DAL/obj/Debug/net7.0/DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranjit/projects/DAL/DAL/obj/Debug/net7.0/DAL.AssemblyInfoInputs.cache
+/Users/ranjit/projects/DAL/DAL/obj/Debug/net7.0/DAL.AssemblyInfo.cs
+/Users/ranjit/projects/DAL/DAL/obj/Debug/net7.0/DAL.csproj.CoreCompileInputs.cache
+/Users/ranjit/projects/DAL/DAL/bin/Debug/net7.0/DAL.deps.json
+/Users/ranjit/projects/DAL/DAL/bin/Debug/net7.0/DAL.dll
+/Users/ranjit/projects/DAL/DAL/bin/Debug/net7.0/DAL.pdb
+/Users/ranjit/projects/DAL/DAL/bin/Debug/net7.0/DTO.dll
+/Users/ranjit/projects/DAL/DAL/bin/Debug/net7.0/DTO.pdb
+/Users/ranjit/projects/DAL/DAL/obj/Debug/net7.0/DAL.csproj.CopyComplete
+/Users/ranjit/projects/DAL/DAL/obj/Debug/net7.0/DAL.dll
+/Users/ranjit/projects/DAL/DAL/obj/Debug/net7.0/refint/DAL.dll
+/Users/ranjit/projects/DAL/DAL/obj/Debug/net7.0/DAL.pdb
+/Users/ranjit/projects/DAL/DAL/obj/Debug/net7.0/ref/DAL.dll
